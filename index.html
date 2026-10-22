@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #12141a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: #1a1d28;
+            width: 100%;
+            max-width: 520px;
+            padding: 36px;
+            border-radius: 16px;
+            border: 1px solid #2c3142;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+        }
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: #252a38;
+            margin: 0 auto 20px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:40px;
+            color:#8892b0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 8px;
+            color: #ccd6f6;
+        }
+        .subtitle {
+            text-align:center;
+            color:#8892b0;
+            margin-bottom:28px;
+        }
+        .section {
+            margin-bottom:22px;
+        }
+        .section h3 {
+            color:#64ffda;
+            font-size:16px;
+            margin-bottom:10px;
+            letter-spacing:1px;
+        }
+        .section p {
+            line-height:1.7;
+            color:#a8b2d1;
+        }
+        .tags {
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+            margin-top:8px;
+        }
+        .tag {
+            padding:5px 12px;
+            background:#252a38;
+            border-radius:999px;
+            font-size:13px;
+            color:#ccd6f6;
+        }
+        .links {
+            margin-top:30px;
+            display:flex;
+            justify-content:center;
+            gap:16px;
+        }
+        .links a {
+            color:#64ffda;
+            text-decoration:none;
+            padding:8px 16px;
+            border:1px solid #64ffda;
+            border-radius:8px;
+            transition:0.2s;
+        }
+        .links a:hover {
+            background:#64ffda;
+            color:#12141a;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">👤</div>
+        <h1>龚逸航</h1>
+        <div class="subtitle">热爱游戏 | 慢慢成长</div>
+
+        <div class="section">
+            <h3>关于我</h3>
+            <p>暂时没想到自我介绍。</p >
+        </div>
+
+        <div class="section">
+            <h3>爱好</h3>
+            <div class="tags">
+                <span class="tag">单机游戏</span>
+                <span class="tag">射击游戏</span>
+                <span class="tag">看番</span>
+                <span class="tag">听歌</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>喜欢的游戏</h3>
+            <div class="tags">
+                <span class="tag">泰坦陨落2</span>
+                <span class="tag">GTA5</span>
+                <span class="tag">地平线5</span>
+                <span class="tag">严阵以待</span>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href=" ">QQ</a >
+            <a href="#">Steam</a >
+        </div>
+    </div>
+</body>
+</html>
